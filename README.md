@@ -1,13 +1,11 @@
-NavLink Ads é um sistema de anúncios para sites pessoais. Ele alterna entre anúncios a cada 10 segundos. Não hospeda anúncios comerciais e não custa dinheiro para participar. Todos os anúncios no sistema são apenas de sites pessoais, e de preferência sites feitos à mão (ou seja, nada feito com construtor de sites).
+Lune Ads é um widget simples de “ADS” feito para a comunidade do Neocities :)
 
-Você precisa adicionar o widget no seu site antes de se inscrever para promover outros sites na rede.
+Todos os créditos aos antecessores que inspiraram a ideia: user2663434, melodicake, Dokodemo e dimden.
 
-OS ANÚNCIOS DEVEM TER 180x180 PIXELS.  
+Em vez de apenas reutilizar o código original, eu fiz minhas próprias modificações, mesmo que simples, para dar um toque pessoal ao projeto.
 
-As imagens não devem incluir palavras como "ad", "promo", "advert" etc. em seus títulos. A maioria dos sistemas de bloqueio de anúncios detecta isso e fará com que o widget desapareça. Isso inclui diretórios também.
-
-Também sugiro que você não coloque texto muito baixo na imagem, porque pode acabar sendo coberto pela caixa "NavLink Ads".
+Se quiser participar, é só me chamar no Discord: hikilune
 
 ```html
-<iframe width="180" height="180" style="border:none" src="https://lunechan.github.io/navlink/" name="neolink"></iframe>
+<iframe width="180" height="180" style="border:none" src="https://lunechan.github.io/navlink/" name="lune"></iframe>
 ```
