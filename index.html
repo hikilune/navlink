@@ -79,14 +79,13 @@
 
             var body = document.body;
             var link = document.getElementById("imglink");
+            var currentIndex = Math.floor(Math.random() * sites.length);
 
             function changeAd() {
-                var i = Math.floor(Math.random() * sites.length);
-                body.style.backgroundImage =
-                    "url('/navlink/assets/" + sites[i].image + "')";
-                link.href = "https://" + sites[i].url;
+                body.style.backgroundImage = "url('./assets/" + sites[currentIndex].image + "')";
+                link.href = "https://" + sites[currentIndex].url;
+                currentIndex = (currentIndex + 1) % sites.length;
             }
-
             changeAd();
             setInterval(changeAd, 10000);
         </script>
